@@ -1,0 +1,303 @@
+/* Загальні стилі */
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+html{
+    padding-top: 0.1px;
+}
+body{
+    margin: 0px;
+    background-color: #FFFFEC;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Класові стилі */
+.clearfix{
+    clear: both;
+}
+/* Стилі шапки сайту */
+.header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: #000000;
+    top: 0px;
+}
+
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 100px;
+    top: 10px;
+    background: #FF8A00;
+    border-radius: 20px;
+}
+
+.logo span{
+    position: absolute;
+    left: 40px;
+    top: 3px;
+    font-weight: 800;
+    font-size: 40px;
+    color: #000000;
+}
+
+.menu{
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    left: 810px;
+    top: 10px;
+}
+
+.menu div{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #6FFFA8;
+    border-radius: 15px;
+
+    padding: 10px;
+    text-align: center;
+}
+
+.menu div span{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menuitem1{
+    right: 590px;
+}
+.menuitem2{
+    right: 420px;
+}
+.menuitem3{
+    right: 250px;
+}
+.menuitem4{
+    right: 80px;
+}
+
+/* Стилі основного вмісту */
+
+.content h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 110px;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.content .first-p{
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 110px;
+}
+/* ---------------------- */
+.three-pictures-in-row .picture-1, .picture-2, .picture-3{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-left: 80px;
+
+    border: 1px solid #000000;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.three-pictures-in-row .picture-1{
+    left: 70px;
+    margin-left: 70px;
+}
+.three-pictures-in-row .picture-2{
+    left: 550px;
+}
+.three-pictures-in-row .picture-3{
+    left: 1030px;
+}
+/* ----------------------- */
+.three-p-in-row{
+    margin-top: 30px;
+    position: relative;
+}
+.three-p-in-row p{
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 400px;
+    float: left;
+}
+
+/* ------------------------------- */
+.greenblock{
+    position: relative;
+    height: 700px;
+    background: #E0FFC1;
+    box-shadow: inherit 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+.greenblock h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 110px;
+    padding-top: 174px;
+}
+.greenblock p{
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 160px;
+}
+.greenblock img{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 830px;
+    top: 100px;
+    border: 1px solid #000000;
+    box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+/* -------------------- */
+
+.greyblock{
+    position: relative;
+    height: 700px;
+    background: #D9D9D9;
+    box-shadow:inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.greyblock h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 850px;
+    margin-top: 0px;
+    padding-top: 174px;
+}
+.greyblock p{
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 900px;
+}
+.greyblock img{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 70px;
+    top: 100px;
+    border: 1px solid #000000;
+    box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+/* --------------------------------- */
+.strangeblock{
+    position: relative;
+    height: 700px;
+    background: #FFDBC1;
+    box-shadow:inset 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.strangeblock h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 110px;
+    margin-top: 0px;
+    padding-top: 174px;
+}
+.strangeblock p{
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 160px;
+}
+.strangeblock img{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 830px;
+    top: 100px;
+    border: 1px solid #000000;
+    box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+/* ------------------------- */
+/* штука в якій кнопка */
+
+.shtuka-dla-knopki{
+    width: 1200px;
+    height: 400px;
+    background: #8BABFF;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.shtuka-dla-knopki h3{
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 40px;
+}
+.shtuka-dla-knopki p{
+    font-weight: 500;
+    font-size: 24px;
+}
+.knopka{
+    width: 500px;
+    height: 100px;
+    background: linear-gradient(100.97deg, #9E00FF -30.76%, #00E0FF 131.66%);
+    border-radius: 60px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 2px 5px 8px rgba(56, 136, 255, 0.38);
+}
+.knopka a{
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* footer - стилі*/
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(180deg, #444444 0%, #000000 138.17%);
+    margin-top: 200px;
+    color: white;
+}
+.left-shtuka{
+    display: inline-block;
+    margin-left: 60px;
+}
+.right-shtuka{
+    display: inline-block;
+    margin-left: 370px;
+}
+.footer p{
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 40px;
+}
+.footer li{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 145%;
+}
